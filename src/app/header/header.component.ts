@@ -7,14 +7,14 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  @Input() displayHeader:boolean | undefined;
+  // @Input() displayHeader:boolean | undefined;
 
   constructor() {
    
    }
 
   ngOnInit(): void {
-    alert(this.displayHeader);
+    // alert(this.displayHeader);
   }
 
 }

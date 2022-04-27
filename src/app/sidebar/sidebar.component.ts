@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import {  Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-sidebar',
@@ -8,18 +8,21 @@ import { Title } from '@angular/platform-browser';
 })
 export class SidebarComponent implements OnInit {
   // public sidebarShow: boolean = false;
- displayHeader:boolean = false;
-  constructor() { }
+//  public displayHeader:boolean = false;
+
+  constructor(private titleSerice:Title) { }
 
 
-  // public setTitle( newTitle: string) {
-  //   this.titleService.name( newTitle );
-  // }
+ 
   ngOnInit(): void {
+ 
   }
+//  name( newTitle: string) {
+//     this.titleSerice.name( newTitle );
+//   }
 
 
-   name(){
-     debugger
-   }
+  //  name(){
+  //    debugger
+  //  }
 }
